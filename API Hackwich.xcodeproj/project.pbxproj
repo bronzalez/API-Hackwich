@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7DC310D02166873F00E62792 /* ArticlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC310CF2166873F00E62792 /* ArticlesViewController.swift */; };
 		7DC3520D215E998A00E04850 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC3520C215E998A00E04850 /* AppDelegate.swift */; };
 		7DC3520F215E998A00E04850 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC3520E215E998A00E04850 /* ViewController.swift */; };
 		7DC35212215E998A00E04850 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DC35210215E998A00E04850 /* Main.storyboard */; };
 		7DC35214215E998B00E04850 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DC35213215E998B00E04850 /* Assets.xcassets */; };
 		7DC35217215E998B00E04850 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DC35215215E998B00E04850 /* LaunchScreen.storyboard */; };
+		7DCEACEB216293BF00FE2482 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCEACEA216293BF00FE2482 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7DC310CF2166873F00E62792 /* ArticlesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewController.swift; sourceTree = "<group>"; };
 		7DC35209215E998A00E04850 /* API Hackwich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "API Hackwich.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DC3520C215E998A00E04850 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DC3520E215E998A00E04850 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		7DC35213215E998B00E04850 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DC35216215E998B00E04850 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DC35218215E998B00E04850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DCEACEA216293BF00FE2482 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				7DC3520C215E998A00E04850 /* AppDelegate.swift */,
 				7DC3520E215E998A00E04850 /* ViewController.swift */,
+				7DC310CF2166873F00E62792 /* ArticlesViewController.swift */,
 				7DC35210215E998A00E04850 /* Main.storyboard */,
 				7DC35213215E998B00E04850 /* Assets.xcassets */,
 				7DC35215215E998B00E04850 /* LaunchScreen.storyboard */,
 				7DC35218215E998B00E04850 /* Info.plist */,
+				7DCEACEA216293BF00FE2482 /* SwiftyJSON.swift */,
 			);
 			path = "API Hackwich";
 			sourceTree = "<group>";
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DCEACEB216293BF00FE2482 /* SwiftyJSON.swift in Sources */,
+				7DC310D02166873F00E62792 /* ArticlesViewController.swift in Sources */,
 				7DC3520F215E998A00E04850 /* ViewController.swift in Sources */,
 				7DC3520D215E998A00E04850 /* AppDelegate.swift in Sources */,
 			);
